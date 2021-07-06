@@ -13,8 +13,11 @@ h1 {
     margin-bottom: 100px;
 }
 section{
-    display: flex;
+    display:flex;
     margin-bottom: 150px;
+}
+.center-text{
+    text-align: center;
 }
 .half-width{
     width: 50%;
@@ -41,3 +44,58 @@ section{
     background-repeat: no-repeat;
     background-position: left;
 }
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(hsl(17, 100%, 50%), tomato);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+
+}
+.about-me{
+    background-image: url(image/7.png);
+    background-repeat: no-repeat;
+
+}
+.Recipies{
+    text-align: center;
+}
+.recipies-item{
+    text-align: left;
+    width: 100%;
+    margin-bottom: 10px ;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 8px;
+    padding-left: 10PX;
+    padding-right: 5PX;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.Recipies img{
+     width: 100%;
+     border-radius: 10px;
+     margin-top: 10px;
+     margin-right: 2px;
+    
+}
+.last-banner{
+    width: 40%;
+    margin-left: 5px;
+}
+.footer{
+    text-align: center;
+    font-weight: 700;
+    background-color: black;
+    max-width: 100;
+
+}
+.footer p{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+.footer h1{
+    color: rgb(128, 128, 128);
+}
+
